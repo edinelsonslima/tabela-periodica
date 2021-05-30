@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    background-color: rgb(29, 28, 28);
+    color: white;
+}
+
+header>h1{
+    margin: 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+    text-align: center;
+}
+
+th#txtTh{
+    position: absolute;
+    background-color: #e7e6e6;
+    text-align: left;
+    text-transform: uppercase;
+    padding: 10px;
+    width: 540px;
+    height: 33px;
+    left: 140px;
+    border: none;
+    border-radius: 5px 5px 0px 0px;
+}
+
+#txt{ 
+    position: absolute;
+    background-color: #e7e6e6;
+    color: black;
+    width: 540px;
+    height: 118px;
+    left: 140px;
+    top: 58px;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 0px 0px 5px 5px;
+    border: none;
+}
+
+table#principal{
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.295);
+    color: black;
+    width: 1050px;
+    margin: auto;
+    margin-top: 15px;
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+p{
+    position: absolute;
+    font-size: 10px;
+    font-weight: 100;
+    left: 4px;
+    top: 3px;
+}
+
+td{
+    position: relative;
+    display:inline-block;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 2px;
+    padding: 15px;
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+}
+
+td:hover{
+    background-color: rgba(43, 255, 0, 0.322);
+    cursor: pointer;
+}
+
+footer{
+    position: absolute;
+    width: 100%;
+    bottom: 50px;
+    text-align: center;
+}
+
+.outros{
+    color: white;
+    font-size: 10px;
+    padding: 4px;
+    text-align: left;
+    border: none;
+}
+
+.nao-metal{
+    background-color: #A1D344;
+}
+
+.metal-alcalino{
+    background-color: #F1B32E;
+}
+
+.metal-alcalino-terroso{
+    background-color: #EADA2F;
+}
+
+.metal-de-transicao{
+    background-color: #EB8E8E;
+}
+
+.semimetais{
+    background-color: #4FB6AC;
+}
+
+.outro-metal{
+    background-color: #A2C7D3;
+}
+
+.halogenio{
+    background-color: #70CBEB;
+}
+
+.gas-nobre{
+    background-color: #3D9EE3;
+}
+
+.lantanideos{
+      background-color: #90E3E9;
+}
+
+.actinidios{
+    background-color: #DCADD6;
+}
+
+.oculto{
+    visibility: hidden;
+}
+
+.animacao{
+    animation:tada;
+    animation-duration: 2s;
+}
