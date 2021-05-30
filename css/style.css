@@ -47,6 +47,7 @@ th#txtTh{
 }
 
 table#principal{
+    
     position: relative;
     background-color: rgba(255, 255, 255, 0.295);
     color: black;
@@ -79,8 +80,9 @@ td{
 }
 
 td:hover{
-    background-color: rgba(43, 255, 0, 0.322);
     cursor: pointer;
+    animation: tada;
+    animation-duration: 2s;
 }
 
 footer{
