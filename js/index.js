@@ -44,6 +44,7 @@ celulas.forEach(function(elemento){
                 celulas[i].classList.remove('animacao')
             }
         }
+       
     }
 })
 
