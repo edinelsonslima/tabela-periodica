@@ -1,6 +1,9 @@
 const celulas = document.querySelectorAll('td')
+const indice = document.querySelectorAll('td>p')
 const txt = document.querySelector('#txt')
+const txtTh = document.querySelector('#txtTh')
 
+console.log(indice[0].innerText)
 
 celulas.forEach(function(elemento){
     elemento.onmouseover = () =>{
@@ -29,6 +32,11 @@ celulas.forEach(function(elemento){
         }
 
         //Mostrar detalhes de cada elemento
-        
+        indice.forEach(function(valor){
+            if(valor.innerText == '1'){
+                txtTh.style.background = '#A1D344'
+            }
+        })
     }
 })
+
