@@ -1,5 +1,6 @@
 //Todas as celulas da tabela
 const celulas = document.querySelectorAll('td')
+const indice = document.querySelectorAll('td>p')
 
 //Divisão por classes
 const naoMetais = document.querySelectorAll('.nao-metal')
@@ -17,7 +18,7 @@ const actinidios = document.querySelectorAll('.actinidios')
 const txt = document.querySelector('#txt')
 const txtTh = document.querySelector('#txtTh')
 
-//Animações da tabela
+//Animações da tabela secundaria
 celulas.forEach(function(elemento){
     elemento.onmouseenter = () =>{
         //Animação dos elementos 57 a 71
