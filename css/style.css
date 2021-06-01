@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -5,8 +7,7 @@
 }
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 700;
+  
     background-color: rgb(29, 28, 28);
     color: white;
 }
@@ -37,10 +38,12 @@ th#txtTh{
     background-color: #e7e6e6;
     color: black;
     width: 540px;
-    height: 125px;
+    height: 120px;
     left: 140px;
     top: 58px;
     text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: 16px;
     padding: 10px;
     border-radius: 0px 0px 5px 5px;
     border: none;
@@ -68,6 +71,9 @@ p{
 }
 
 td{
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 600;
+    font-size: 20px;
     position: relative;
     display:inline-block;
     text-align: center;

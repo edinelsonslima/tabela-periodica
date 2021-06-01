@@ -1,6 +1,5 @@
 //Todas as celulas da tabela
 const celulas = document.querySelectorAll('td')
-const indice = document.querySelectorAll('td>p')
 
 //Divisão por classes
 const naoMetais = document.querySelectorAll('.nao-metal')
@@ -15,7 +14,6 @@ const lantanideos = document.querySelectorAll('.lantanideos')
 const actinidios = document.querySelectorAll('.actinidios')
 
 //Area de texto informativo
-const txt = document.querySelector('#txt')
 const txtTh = document.querySelector('#txtTh')
 
 //Animações da tabela secundaria
