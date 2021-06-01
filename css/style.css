@@ -34,6 +34,7 @@ th#txtTh{
 }
 
 #txt{ 
+    display: flex;
     position: absolute;
     background-color: #e7e6e6;
     color: black;
@@ -49,8 +50,33 @@ th#txtTh{
     border: none;
 }
 
+div#icone{
+    position: relative;
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px #3131316c;
+    text-align: center;
+    padding: 10px;
+    font-size: 65px;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 500;
+}
+
+p#indice{
+    padding: 5px;
+    font-size: 18px;
+}
+
+span#informativo{
+    width: 400px;
+    margin-left:16px;
+    font-size: 15px;
+}
+
 table#principal{
-    
     position: relative;
     background-color: rgba(255, 255, 255, 0.295);
     color: black;
@@ -148,6 +174,10 @@ footer{
 
 .oculto{
     visibility: hidden;
+}
+
+.invisivel{
+    display: none;
 }
 
 .animacao{
