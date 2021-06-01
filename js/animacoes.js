@@ -61,6 +61,7 @@ naoMetais.forEach(function(naoMetal){
     }
     naoMetal.onmouseout = () =>{
         txtTh.style.background = '#e7e6e6'
+        txtTh.innerText = 'tabela periodica'
         inicial.classList.remove('invisivel')
         icone.classList.add('invisivel')
         informativo.classList.add('invisivel')
@@ -77,6 +78,7 @@ metaisAlcalinos.forEach(function(metalAlcalino){
     }
     metalAlcalino.onmouseout = () =>{
         txtTh.style.background = '#e7e6e6'
+        txtTh.innerText = 'tabela periodica'
         inicial.classList.remove('invisivel')
         icone.classList.add('invisivel')
         informativo.classList.add('invisivel')
@@ -93,6 +95,7 @@ semimetais.forEach(function(semimetal){
     }
     semimetal.onmouseout = () =>{
         txtTh.style.background = '#e7e6e6'
+        txtTh.innerText = 'tabela periodica'
         inicial.classList.remove('invisivel')
         icone.classList.add('invisivel')
         informativo.classList.add('invisivel')
@@ -109,6 +112,7 @@ metaisAlcalinosTerrosos.forEach(function(metalAlcalinoTerroso){
     }
     metalAlcalinoTerroso.onmouseout = () =>{
         txtTh.style.background = '#e7e6e6'
+        txtTh.innerText = 'tabela periodica'
         inicial.classList.remove('invisivel')
         icone.classList.add('invisivel')
         informativo.classList.add('invisivel')
@@ -126,6 +130,7 @@ metaisDeTransicao.forEach(function(metalDeTransicao){
     }
     metalDeTransicao.onmouseout = () =>{
         txtTh.style.background = '#e7e6e6'
+        txtTh.innerText = 'tabela periodica'
         inicial.classList.remove('invisivel')
         icone.classList.add('invisivel')
         informativo.classList.add('invisivel')
@@ -142,6 +147,7 @@ outrosMetais.forEach(function(outroMetal){
     }
     outroMetal.onmouseout = () =>{
         txtTh.style.background = '#e7e6e6'
+        txtTh.innerText = 'tabela periodica'
         inicial.classList.remove('invisivel')
         icone.classList.add('invisivel')
         informativo.classList.add('invisivel')
@@ -158,6 +164,7 @@ halogenios.forEach(function(halogenio){
     }
     halogenio.onmouseout = () =>{
         txtTh.style.background = '#e7e6e6'
+        txtTh.innerText = 'tabela periodica'
         inicial.classList.remove('invisivel')
         icone.classList.add('invisivel')
         informativo.classList.add('invisivel')
@@ -174,6 +181,7 @@ gasesNobres.forEach(function(gasNobre){
     }
     gasNobre.onmouseout = () =>{
         txtTh.style.background = '#e7e6e6'
+        txtTh.innerText = 'tabela periodica'
         inicial.classList.remove('invisivel')
         icone.classList.add('invisivel')
         informativo.classList.add('invisivel')
@@ -190,6 +198,7 @@ lantanideos.forEach(function(lantanideo){
     }
     lantanideo.onmouseout = () =>{
         txtTh.style.background = '#e7e6e6'
+        txtTh.innerText = 'tabela periodica'
         inicial.classList.remove('invisivel')
         icone.classList.add('invisivel')
         informativo.classList.add('invisivel')
@@ -206,6 +215,7 @@ actinidios.forEach(function(actinidio){
     }
     actinidio.onmouseout = () =>{
         txtTh.style.background = '#e7e6e6'
+        txtTh.innerText = 'tabela periodica'
         inicial.classList.remove('invisivel')
         icone.classList.add('invisivel')
         informativo.classList.add('invisivel')
