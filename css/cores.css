@@ -1,0 +1,82 @@
+/*Cores da Legenda*/
+div#nao-metais{
+    background-color: #A1D344;
+}
+
+div#metais-alcalinos{
+    background-color: #F1B32E;
+}
+
+div#metais-alcalino-terrosos{
+    background-color: #EADA2F;
+}
+
+div#metais-de-transicao{
+    background-color: #EB8E8E;
+}
+
+div#semimetais{
+    background-color: #4FB6AC;
+}
+
+div#outros-metais{
+    background-color: #A2C7D3;
+}
+
+div#halogenios{
+    background-color: #70CBEB;
+}
+
+div#gases-nobres{
+    background-color: #3D9EE3;
+}
+
+div#lantanideos{
+    background-color: #90E3E9;
+}
+
+div#actinidios{
+    background-color: #DCADD6;
+}
+
+
+/*Cores das classes dos elementos*/
+.nao-metal{
+    background-color: #A1D344;
+}
+
+.metal-alcalino{
+    background-color: #F1B32E;
+}
+
+.metal-alcalino-terroso{
+    background-color: #EADA2F;
+}
+
+.metal-de-transicao{
+    background-color: #EB8E8E;
+}
+
+.semimetais{
+    background-color: #4FB6AC;
+}
+
+.outro-metal{
+    background-color: #A2C7D3;
+}
+
+.halogenio{
+    background-color: #70CBEB;
+}
+
+.gas-nobre{
+    background-color: #3D9EE3;
+}
+
+.lantanideos{
+      background-color: #90E3E9;
+}
+
+.actinidios{
+    background-color: #DCADD6;
+}

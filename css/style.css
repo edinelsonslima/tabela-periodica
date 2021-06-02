@@ -78,7 +78,7 @@ span#informativo{
 table#principal{
     position: relative;
     background-color: rgba(255, 255, 255, 0.295);
-    color: black;
+    color: rgba(0, 0, 0, 0.726);
     width: 1050px;
     margin: auto;
     margin-top: 15px;
@@ -117,6 +117,39 @@ td:hover{
     animation-duration: 2s;
 }
 
+section#legenda{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.295);
+    width: 1050px;
+    height: 135px;
+    margin: auto;
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+div.quadrado{
+    width: 25px;
+    height: 25px;
+    margin: 15px;
+    margin-right: 5px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.822);
+    padding-top: 16px;
+    margin-right: 20px;
+    letter-spacing: 1px;
+}
+
 footer{
     margin-top: 160px;
     width: 100%;
@@ -131,46 +164,6 @@ footer{
     border: none;
 }
 
-.nao-metal{
-    background-color: #A1D344;
-}
-
-.metal-alcalino{
-    background-color: #F1B32E;
-}
-
-.metal-alcalino-terroso{
-    background-color: #EADA2F;
-}
-
-.metal-de-transicao{
-    background-color: #EB8E8E;
-}
-
-.semimetais{
-    background-color: #4FB6AC;
-}
-
-.outro-metal{
-    background-color: #A2C7D3;
-}
-
-.halogenio{
-    background-color: #70CBEB;
-}
-
-.gas-nobre{
-    background-color: #3D9EE3;
-}
-
-.lantanideos{
-      background-color: #90E3E9;
-}
-
-.actinidios{
-    background-color: #DCADD6;
-}
-
 .oculto{
     visibility: hidden;
 }
@@ -182,4 +175,9 @@ footer{
 .animacao{
     animation:tada;
     animation-duration: 2s;
+}
+
+.animacaoLegenda{
+    animation:heartBeat;
+    animation-duration: 3s;
 }
